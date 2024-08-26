@@ -15,7 +15,7 @@ public class ApiTest {
 
     @Test
     public void test() {
-        log.info("ssssssss");
+        log.info("ss");
     }
 
 }
