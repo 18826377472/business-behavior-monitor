@@ -42,7 +42,14 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
         </dependency>
+        <dependency>
+            <groupId>plus.gaga</groupId>
+            <artifactId>business-behavior-monitor-sdk</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
+
+
     <build>
         <finalName>business-behavior-monitor-test-app</finalName>
         <resources>

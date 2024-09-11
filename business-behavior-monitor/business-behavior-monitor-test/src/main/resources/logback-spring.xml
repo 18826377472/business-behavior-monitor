@@ -102,15 +102,16 @@
         <logger name="com.nmys.view" level="debug"/>
     </springProfile>
 
-<!--    <appender name="CUSTOM" class="plus.gaga.monitor.sdk.appender.CustomAppender">-->
-<!--        <systemName>big-market</systemName>-->
-<!--        <groupId>cn.bugstack</groupId>-->
-<!--        <host>127.0.0.1</host>-->
-<!--        <port>16379</port>-->
-<!--    </appender>-->
+    <appender name="CUSTOM" class="plus.gaga.monitor.sdk.appender.CustomAppender">
+        <systemName>big-market</systemName>
+        <groupId>cn.bugstack</groupId>
+        <host>127.0.0.1</host>
+        <port>6379</port>
+    </appender>
+
 
     <root level="info">
-<!--        <appender-ref ref="CUSTOM"/>-->
+        <appender-ref ref="CUSTOM"/>
 
         <appender-ref ref="CONSOLE"/>
         <!-- 异步日志-INFO -->
