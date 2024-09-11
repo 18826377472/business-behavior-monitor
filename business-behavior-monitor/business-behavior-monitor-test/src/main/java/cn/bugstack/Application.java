@@ -1,4 +1,4 @@
-package plus.gaga.monitor;
+package cn.bugstack;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.SpringApplication;
