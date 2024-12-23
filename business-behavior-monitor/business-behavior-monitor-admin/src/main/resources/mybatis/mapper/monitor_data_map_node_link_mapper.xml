@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="plus.gaga.monitor.infrastructure.dao.IMonitorDataMapNodeLinkDao">
+
+    <resultMap id="dataMap" type="plus.gaga.monitor.infrastructure.po.MonitorDataMapNodeLink">
+        <id column="id" property="id"/>
+        <result column="monitor_id" property="monitorId"/>
+        <result column="from_monitor_node_id" property="fromMonitorNodeId"/>
+        <result column="to_monitor_node_id" property="toMonitorNodeId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+
+</mapper>
