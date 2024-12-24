@@ -48,3 +48,18 @@
 24-12-24.14:30:08.805 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
 24-12-24.14:30:08.994 [main            ] INFO  ApiTest                - Started ApiTest in 2.325 seconds (JVM running for 3.187)
 24-12-24.14:30:09.311 [main            ] INFO  ApiTest                - 测试日志00 10001 李二狗 {"orderId":"109099893222","userAge":25,"userId":"10001","userName":"李二狗"}
+24-12-24.22:45:41.862 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-24.22:45:41.441 [main            ] INFO  ApiTest                - Starting ApiTest using Java 17.0.10 on LAPTOP-F7R4B6PH with PID 27872 (started by 雷海心 in C:\Users\linyibao\gitee\business-behavior-monitor\business-behavior-monitor\business-behavior-monitor\business-behavior-monitor-test)
+24-12-24.22:45:45.179 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-24.22:45:45.171 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-12-24.22:45:48.438 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-24.22:45:48.433 [main            ] INFO  ApiTest                - Started ApiTest in 7.414 seconds (JVM running for 8.156)
+24-12-24.22:45:52.133 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-24.22:45:52.129 [main            ] INFO  ApiTest                - 测试日志00 10001 李三狗 {"orderId":"109099893222","userAge":25,"userId":"10001","userName":"李三狗"}
+24-12-24.22:50:59.485 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-24.22:50:59.092 [main            ] INFO  ApiTest                - Starting ApiTest using Java 17.0.10 on LAPTOP-F7R4B6PH with PID 9280 (started by 雷海心 in C:\Users\linyibao\gitee\business-behavior-monitor\business-behavior-monitor\business-behavior-monitor\business-behavior-monitor-test)
+24-12-24.22:50:59.756 [redisson-netty-1-23] INFO  ConnectionsHolder      - 10 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-24.22:50:59.753 [redisson-netty-1-16] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-24.22:50:59.816 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-12-24.22:50:59.967 [main            ] INFO  ApiTest                - Started ApiTest in 1.247 seconds (JVM running for 1.957)
+24-12-24.22:51:00.432 [main            ] INFO  ApiTest                - 测试日志00 10001 李三狗 {"orderId":"109099893222","userAge":25,"userId":"10001","userName":"李三狗"}

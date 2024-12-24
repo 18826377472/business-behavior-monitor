@@ -2,10 +2,12 @@ package plus.gaga.monitor.infrastructure.repository;
 
 import org.springframework.stereotype.Repository;
 import plus.gaga.monitor.domain.model.entity.MonitorDataEntity;
+import plus.gaga.monitor.domain.model.entity.MonitorDataMapEntity;
 import plus.gaga.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import plus.gaga.monitor.domain.repository.IMonitorRepository;
 import plus.gaga.monitor.infrastructure.dao.*;
 import plus.gaga.monitor.infrastructure.po.MonitorData;
+import plus.gaga.monitor.infrastructure.po.MonitorDataMap;
 import plus.gaga.monitor.infrastructure.po.MonitorDataMapNode;
 import plus.gaga.monitor.infrastructure.po.MonitorDataMapNodeField;
 import plus.gaga.monitor.infrastructure.redis.IRedisService;
@@ -95,6 +97,19 @@ public class MonitorRepository implements IMonitorRepository {
 
         String cacheKey = Constants.RedisKey.monitor_node_data_count_key + monitorDataEntity.getMonitorId() + Constants.UNDERLINE + monitorDataEntity.getMonitorNodeId();
         redisService.incr(cacheKey);
+    }
+
+    @Override
+    public List<MonitorDataMapEntity> queryMonitorDataMapEntityList() {
+        List<MonitorDataMap> monitorDataList = monitorDataMapDao.queryMonitorDataMapEntityList();
+        List<MonitorDataMapEntity> monitorDataMapEntities = new ArrayList<>();
+        for (MonitorDataMap monitorDataMap : monitorDataList) {
+            monitorDataMapEntities.add(MonitorDataMapEntity.builder()
+                    .monitorId(monitorDataMap.getMonitorId())
+                    .monitorName(monitorDataMap.getMonitorName())
+                    .build());
+        }
+        return monitorDataMapEntities;
     }
 
 }
