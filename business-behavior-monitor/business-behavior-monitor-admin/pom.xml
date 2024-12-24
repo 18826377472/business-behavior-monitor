@@ -69,6 +69,11 @@
             <artifactId>ognl</artifactId>
             <version>3.0.8</version>
         </dependency>
+        <dependency>
+            <groupId>plus.gaga</groupId>
+            <artifactId>business-behavior-monitor-sdk</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

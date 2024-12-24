@@ -1,4 +1,4 @@
-package cn.bugstack.test;
+package cn.bugstack.monitor.test;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;
@@ -30,10 +30,26 @@ public class ApiTest {
     }
 
 
+
+
+    @Test
+    public void test_log_00() throws InterruptedException {
+        log.info("测试日志00 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
+
     @Test
     public void test_log_01() throws InterruptedException {
-        log.info("测试日志 {} {} {}", userEntity.getUserId(), userEntity.getUserName(), JSON.toJSONString(userEntity));
-        new CountDownLatch(1).await();
+        log.info("测试日志01 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
+
+    @Test
+    public void test_log_02() throws InterruptedException {
+        log.info("测试日志02 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
+
+    @Test
+    public void test_log_03() throws InterruptedException {
+        log.info("测试日志03 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
     }
 
     @Data
