@@ -11,5 +11,19 @@
         <result column="update_time" property="updateTime"/>
     </resultMap>
 
+    <select id="queryMonitorNodeLinkConfigByMonitorId" parameterType="java.lang.String" resultMap="dataMap">
+        select id, from_monitor_node_id, to_monitor_node_id
+        from monitor_data_map_node_link
+        where monitor_id = #{monitorId}
+    </select>
+
+    <delete id="deleteLinkFromByMonitorId" parameterType="java.lang.String">
+        delete from monitor_data_map_node_link where monitor_id = #{monitorId}
+    </delete>
+
+    <insert id="insert" parameterType="plus.gaga.monitor.infrastructure.po.MonitorDataMapNodeLink">
+        insert into monitor_data_map_node_link(monitor_id, from_monitor_node_id, to_monitor_node_id)
+        values(#{monitorId}, #{fromMonitorNodeId}, #{toMonitorNodeId})
+    </insert>
 
 </mapper>

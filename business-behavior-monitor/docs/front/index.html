@@ -109,7 +109,16 @@
     </ul>
 </div>
 
+<div id="container">
+    <div>
+        <h1>监控地图</h1>
+        <div id="monitorDisplayPanel"></div>
+    </div>
+</div>
+
 <script type="text/javascript">
+    var monitorFlow = new FlowDesigner('monitorDisplayPanel');
+
     document.addEventListener('DOMContentLoaded', function() {
          // 查询侧边栏
         fetchSceneList();
@@ -124,9 +133,28 @@
             return;
         }
 
-        console.info('监控 ' + monitorId)
+        // Initial fetch
+        fetchData(monitorId);
+
+        // Set interval to fetch data every 5 seconds
+        //setInterval(fetchData, 5000);
 
     });
+
+    function fetchData(monitorId) {
+            fetch(`http://localhost:8091/api/v1/monitor/query_monitor_flow_map?monitorId=${monitorId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.code === "0000") {
+                        monitorFlow.displayFlow(data.data);
+                    } else {
+                        console.error('Error in response:', data.info);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                });
+        }
 
     function fetchSceneList() {
         fetch('http://localhost:8091/api/v1/monitor/query_monitor_data_map_entity_list')

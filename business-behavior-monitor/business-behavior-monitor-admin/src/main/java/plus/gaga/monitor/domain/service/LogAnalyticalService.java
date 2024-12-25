@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import plus.gaga.monitor.domain.model.entity.MonitorDataEntity;
 import plus.gaga.monitor.domain.model.entity.MonitorDataMapEntity;
 import plus.gaga.monitor.domain.model.valobj.GatherNodeExpressionVO;
+import plus.gaga.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import plus.gaga.monitor.domain.repository.IMonitorRepository;
 import plus.gaga.monitor.types.Constants;
 
@@ -74,6 +75,11 @@ public class LogAnalyticalService implements ILogAnalyticalService {
     @Override
     public List<MonitorDataMapEntity> queryMonitorDataMapEntityList() {
         return repository.queryMonitorDataMapEntityList();
+    }
+
+    @Override
+    public MonitorTreeConfigVO queryMonitorFlowData(String monitorId) {
+        return repository.queryMonitorFlowData(monitorId);
     }
 
 }
