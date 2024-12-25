@@ -1,7 +1,9 @@
 package plus.gaga.monitor.domain.service;
 
 import ognl.OgnlException;
+import plus.gaga.monitor.domain.model.entity.MonitorDataEntity;
 import plus.gaga.monitor.domain.model.entity.MonitorDataMapEntity;
+import plus.gaga.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import plus.gaga.monitor.domain.model.valobj.MonitorTreeConfigVO;
 
 import java.util.List;
@@ -13,5 +15,9 @@ public interface ILogAnalyticalService {
     List<MonitorDataMapEntity> queryMonitorDataMapEntityList();
 
     MonitorTreeConfigVO queryMonitorFlowData(String monitorId);
+
+    List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity);
+
+    void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity);
 
 }

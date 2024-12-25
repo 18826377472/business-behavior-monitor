@@ -441,3 +441,58 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-12-25.09:21:39.287 [http-nio-8091-exec-2] INFO  MonitorController      - 查询监控流数据 monitorId:129009
 24-12-25.09:22:10.773 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 24-12-25.09:22:10.779 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-25.17:08:11.269 [main            ] INFO  Application            - Starting Application using Java 1.8.0_151 on LAPTOP-K1P7181D with PID 55968 (D:\gitee\business-behavior-monitor\business-behavior-monitor-admin\target\classes started by lan lin in D:\gitee\business-behavior-monitor)
+24-12-25.17:08:11.272 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-25.17:08:12.063 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-25.17:08:12.065 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-25.17:08:12.095 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-12-25.17:08:12.560 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-25.17:08:12.568 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-25.17:08:12.569 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-25.17:08:12.569 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-25.17:08:12.715 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-25.17:08:12.715 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1413 ms
+24-12-25.17:08:13.246 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-25.17:08:13.947 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.17:08:13.956 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.17:08:14.597 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-25.17:08:14.621 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-25.17:08:14.630 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-25.17:08:14.645 [main            ] INFO  Application            - Started Application in 3.796 seconds (JVM running for 5.01)
+24-12-25.17:08:15.061 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-25.17:08:15.891 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-25.17:08:15.988 [RMI TCP Connection(3)-192.168.237.55] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-25.17:08:15.988 [RMI TCP Connection(3)-192.168.237.55] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-25.17:08:15.989 [RMI TCP Connection(3)-192.168.237.55] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-12-25.17:08:30.165 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-25.17:08:30.172 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-25.17:08:34.523 [main            ] INFO  Application            - Starting Application using Java 1.8.0_151 on LAPTOP-K1P7181D with PID 55592 (D:\gitee\business-behavior-monitor\business-behavior-monitor-admin\target\classes started by lan lin in D:\gitee\business-behavior-monitor)
+24-12-25.17:08:34.524 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-25.17:08:35.285 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-25.17:08:35.287 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-25.17:08:35.316 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-12-25.17:08:35.789 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-25.17:08:35.796 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-25.17:08:35.796 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-25.17:08:35.796 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-25.17:08:35.933 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-25.17:08:35.933 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms
+24-12-25.17:08:36.465 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-25.17:08:37.157 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.17:08:37.169 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.17:08:37.866 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-25.17:08:37.889 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-25.17:08:37.898 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-25.17:08:37.910 [main            ] INFO  Application            - Started Application in 3.848 seconds (JVM running for 5.492)
+24-12-25.17:08:38.023 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-25.17:08:38.859 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-25.17:08:38.979 [RMI TCP Connection(3)-192.168.237.55] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-25.17:08:38.979 [RMI TCP Connection(3)-192.168.237.55] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-25.17:08:38.980 [RMI TCP Connection(3)-192.168.237.55] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-12-25.17:09:27.553 [redisson-3-7    ] INFO  MonitorLogListener     - 监听监控日志消息，解析存储: {"className":"cn.bugstack.monitor.test.ApiTest","logList":["测试日志00","10001","李二狗","{\"orderId\":\"109099893222\",\"userAge\":25,\"userId\":\"10001\",\"userName\":\"李二狗\"}"],"methodName":"test_log_00","systemName":"big-market"}
+24-12-25.17:11:06.731 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s699ms221µs600ns).
+24-12-25.17:22:15.110 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m8s379ms452µs700ns).
+24-12-25.17:26:29.002 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m13s892ms44µs500ns).
+24-12-25.17:27:41.871 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s868ms600µs700ns).
+24-12-25.17:28:39.306 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-25.17:28:39.312 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
