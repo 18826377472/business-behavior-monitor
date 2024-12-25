@@ -2,7 +2,6 @@ package plus.gaga.monitor.domain.repository;
 
 import plus.gaga.monitor.domain.model.entity.MonitorDataEntity;
 import plus.gaga.monitor.domain.model.entity.MonitorDataMapEntity;
-import plus.gaga.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import plus.gaga.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import plus.gaga.monitor.domain.model.valobj.MonitorTreeConfigVO;
 
@@ -22,7 +21,5 @@ public interface IMonitorRepository {
     MonitorTreeConfigVO queryMonitorFlowData(String monitorId);
 
     List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity);
-
-    void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity);
 
 }

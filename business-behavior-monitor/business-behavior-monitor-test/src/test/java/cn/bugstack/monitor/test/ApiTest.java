@@ -24,7 +24,7 @@ public class ApiTest {
     public void init() {
         userEntity = new UserEntity();
         userEntity.setUserId("10001");
-        userEntity.setUserName("李二狗ssssssssssss");
+        userEntity.setUserName("李二狗sssssssssss");
         userEntity.setUserAge(25);
         userEntity.setOrderId("109099893222");
     }

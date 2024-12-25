@@ -7,7 +7,6 @@ import ognl.OgnlException;
 import org.springframework.stereotype.Service;
 import plus.gaga.monitor.domain.model.entity.MonitorDataEntity;
 import plus.gaga.monitor.domain.model.entity.MonitorDataMapEntity;
-import plus.gaga.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import plus.gaga.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import plus.gaga.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import plus.gaga.monitor.domain.repository.IMonitorRepository;
@@ -86,11 +85,6 @@ public class LogAnalyticalService implements ILogAnalyticalService {
     @Override
     public List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity) {
         return repository.queryMonitorDataEntityList(monitorDataEntity);
-    }
-
-    @Override
-    public void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity) {
-        repository.updateMonitorFlowDesigner(monitorFlowDesignerEntity);
     }
 
 }

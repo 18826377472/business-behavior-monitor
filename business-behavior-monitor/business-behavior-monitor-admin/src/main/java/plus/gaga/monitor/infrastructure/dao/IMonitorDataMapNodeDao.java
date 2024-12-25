@@ -11,6 +11,4 @@ public interface IMonitorDataMapNodeDao {
 
     List<MonitorDataMapNode> queryMonitorNodeConfigByMonitorId(String monitorId);
 
-    void updateNodeConfig(MonitorDataMapNode monitorDataMapNodeReq);
-
 }

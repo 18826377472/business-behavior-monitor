@@ -10,8 +10,4 @@ public interface IMonitorDataMapNodeLinkDao {
 
     List<MonitorDataMapNodeLink> queryMonitorNodeLinkConfigByMonitorId(String monitorId);
 
-    void deleteLinkFromByMonitorId(String monitorId);
-
-    void insert(MonitorDataMapNodeLink monitorDataMapNodeLinkReq);
-
 }

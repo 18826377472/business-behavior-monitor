@@ -113,7 +113,6 @@
     <div>
         <h1>监控地图</h1>
         <div id="monitorDisplayPanel"></div>
-        <button id="update">更新流程图</button>
     </div>
 
     <div>
@@ -169,7 +168,7 @@
         fetchData(monitorId);
 
         // Set interval to fetch data every 5 seconds
-        setInterval(() => fetchData(monitorId), 5000);
+        //setInterval(fetchData, 5000);
 
         // Fetch initial monitor data
         fetchMonitorData(monitorId);
@@ -182,10 +181,6 @@
             const monitorNodeId = document.getElementById('monitorNodeId').value;
 
             fetchMonitorData(monitorId, monitorName, monitorNodeId);
-        });
-
-         document.getElementById('update').addEventListener('click', function(event) {
-             window.open("update.html?monitorId=" + monitorId, '_blank');
         });
     });
 
