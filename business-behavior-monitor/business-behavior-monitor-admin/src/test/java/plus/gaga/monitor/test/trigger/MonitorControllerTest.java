@@ -7,7 +7,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import plus.gaga.monitor.trigger.http.MonitorController;
-import plus.gaga.monitor.trigger.http.dto.MonitorDataDTO;
 import plus.gaga.monitor.trigger.http.dto.MonitorDataMapDTO;
 import plus.gaga.monitor.trigger.http.dto.MonitorFlowDataDTO;
 import plus.gaga.monitor.types.Response;
@@ -34,13 +33,5 @@ public class MonitorControllerTest {
         Response<MonitorFlowDataDTO> response = monitorController.queryMonitorFlowMap("129009");
         log.info("测试结果: {}", JSON.toJSONString(response));
     }
-
-    @Test
-    public void test_queryMonitorDataList() {
-        Response<List<MonitorDataDTO>> response = monitorController.queryMonitorDataList("","","");
-        log.info("测试结果: {}", JSON.toJSONString(response));
-    }
-
-
 
 }
