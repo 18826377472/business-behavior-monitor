@@ -82,4 +82,9 @@ public class LogAnalyticalService implements ILogAnalyticalService {
         return repository.queryMonitorFlowData(monitorId);
     }
 
+    @Override
+    public List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity monitorDataEntity) {
+        return repository.queryMonitorDataEntityList(monitorDataEntity);
+    }
+
 }

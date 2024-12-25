@@ -441,3 +441,57 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 24-12-25.09:21:39.287 [http-nio-8091-exec-2] INFO  MonitorController      - 查询监控流数据 monitorId:129009
 24-12-25.09:22:10.773 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 24-12-25.09:22:10.779 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-25.11:42:33.328 [main            ] INFO  Application            - Starting Application using Java 1.8.0_151 on LAPTOP-K1P7181D with PID 45432 (D:\gitee\business-behavior-monitor\business-behavior-monitor-admin\target\classes started by lan lin in D:\gitee\business-behavior-monitor)
+24-12-25.11:42:33.330 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-25.11:42:33.972 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-25.11:42:33.974 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-25.11:42:33.999 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-12-25.11:42:34.362 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-25.11:42:34.369 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-25.11:42:34.369 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-25.11:42:34.369 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-25.11:42:34.497 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-25.11:42:34.497 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+24-12-25.11:42:34.915 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-25.11:42:35.571 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.11:42:35.579 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.11:42:36.097 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-25.11:42:36.115 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-25.11:42:36.122 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-25.11:42:36.133 [main            ] INFO  Application            - Started Application in 3.169 seconds (JVM running for 4.264)
+24-12-25.11:42:36.928 [RMI TCP Connection(2)-192.168.237.55] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-25.11:42:36.929 [RMI TCP Connection(2)-192.168.237.55] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-25.11:42:36.929 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-25.11:42:36.931 [RMI TCP Connection(2)-192.168.237.55] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-12-25.11:42:37.668 [RMI TCP Connection(1)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-25.11:48:23.668 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-25.11:48:23.675 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-25.12:30:33.058 [main            ] INFO  Application            - Starting Application using Java 1.8.0_151 on LAPTOP-K1P7181D with PID 52876 (D:\gitee\business-behavior-monitor\business-behavior-monitor-admin\target\classes started by lan lin in D:\gitee\business-behavior-monitor)
+24-12-25.12:30:33.060 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-25.12:30:33.720 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-25.12:30:33.722 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-25.12:30:33.748 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-12-25.12:30:34.190 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-25.12:30:34.198 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-25.12:30:34.198 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-25.12:30:34.198 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-25.12:30:34.335 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-25.12:30:34.335 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1249 ms
+24-12-25.12:30:34.801 [main            ] INFO  Version                - Redisson 3.26.0
+24-12-25.12:30:35.590 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.12:30:35.605 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-25.12:30:36.321 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-25.12:30:36.351 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-25.12:30:36.361 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-25.12:30:36.374 [main            ] INFO  Application            - Started Application in 3.666 seconds (JVM running for 4.766)
+24-12-25.12:30:37.064 [RMI TCP Connection(6)-192.168.237.55] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-25.12:30:37.064 [RMI TCP Connection(6)-192.168.237.55] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-25.12:30:37.064 [RMI TCP Connection(5)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-25.12:30:37.066 [RMI TCP Connection(6)-192.168.237.55] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-12-25.12:30:37.845 [RMI TCP Connection(5)-192.168.237.55] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-25.12:32:20.715 [http-nio-8091-exec-4] INFO  MonitorController      - 查询监控流数据 monitorId:129009
+24-12-25.12:32:20.715 [http-nio-8091-exec-1] INFO  MonitorController      - 查询监控数据 monitorId:129009
+24-12-25.12:32:25.957 [http-nio-8091-exec-6] INFO  MonitorController      - 查询监控流数据 monitorId:129101
+24-12-25.12:32:25.959 [http-nio-8091-exec-7] INFO  MonitorController      - 查询监控数据 monitorId:129101
+24-12-25.12:32:41.626 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-25.12:32:41.631 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
