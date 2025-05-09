@@ -30,7 +30,9 @@ public class LogAnalyticalService implements ILogAnalyticalService {
 
         for (GatherNodeExpressionVO gatherNodeExpressionVO : gatherNodeExpressionVOs) {
             String monitoryName = repository.queryMonitoryNameByMonitoryId(gatherNodeExpressionVO.getMonitorId());
-
+            for (GatherNodeExpressionVO nodeExpressionVO : gatherNodeExpressionVOs) {
+                System.out.println(nodeExpressionVO.toString());
+            }
             List<GatherNodeExpressionVO.Filed> fileds = gatherNodeExpressionVO.getFileds();
             for (GatherNodeExpressionVO.Filed filed : fileds) {
                 Integer logIndex = filed.getLogIndex();
